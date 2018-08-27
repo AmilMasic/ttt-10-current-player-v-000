@@ -9,12 +9,14 @@
 #   end
 # end
 def turn_count(board)
-  
-    counter = 0
-  board.each do |token|
-    if token = ["X", "O"]
-      counter += 1
+  tokens = ["X", "O"]
+  counter = 0
+  tokens.each do |token|
+    board.each do |turn|
+      if board == token
+        counter += 1
+      end
     end
   end
-  counter
+  counter += 1
 end
