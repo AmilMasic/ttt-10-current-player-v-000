@@ -14,7 +14,9 @@ def turn_count(board)
   tokens.each do |token|
     board.each do |turn|
       if turn == token
+
         counter += 1
+        turn_count = counter
       end
     end
   end
@@ -24,7 +26,7 @@ end
 def current_player(board)
   if turn_count(board) % 2
     puts "X"
-  else 
+  else
     puts "O"
   end
 end
