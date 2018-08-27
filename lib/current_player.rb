@@ -14,7 +14,7 @@ def turn_count(board)
   board.each do |token|
     if token = tokens
       counter += 1
-    # end
+    end
   end
   counter
 end
