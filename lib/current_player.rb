@@ -23,5 +23,11 @@ def turn_count(board)
 end
 
 def current_player(board)
-
+  board.each do |turn|
+    if turn_count(board) % 2 
+      turn = "O"
+    else 
+      turn = "X"
+    end
+  end
 end
