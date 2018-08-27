@@ -13,7 +13,7 @@ def turn_count(board)
   counter = 0
   tokens.each do |token|
     board.each do |turn|
-      if board == token
+      if turn == token
         counter += 1
       end
     end
