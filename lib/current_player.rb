@@ -23,8 +23,8 @@ def turn_count(board)
 end
 
 def current_player(board)
-   turn_count(counter).even?
+   turn_count(board).even?
     puts "X"
-  turn_count(counter).odd?
+  turn_count(board).odd?
   puts "O"
 end
