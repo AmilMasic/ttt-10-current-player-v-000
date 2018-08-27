@@ -8,6 +8,6 @@
 #     counter += 1
 #   end
 # end
-def turn_count
+def turn_count(board)
 
 end
