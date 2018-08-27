@@ -8,11 +8,6 @@
 #     counter += 1
 #   end
 # end
-def turn_count(board)
-  counter = 0
-  tokens = ["X", "0"]
-  board.each do |position|
-    counter +=1
-  end
-  counter
+def turn_count(board, token ="X")
+
 end
