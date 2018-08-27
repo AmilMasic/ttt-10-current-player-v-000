@@ -16,7 +16,6 @@ def turn_count(board)
       if turn == token
 
         counter += 1
-        turn_count = counter
       end
     end
   end
@@ -24,9 +23,8 @@ def turn_count(board)
 end
 
 def current_player(board)
-  if turn_count(board) % 2
-    puts "O"
-  else
+   turn_count(board).even?
     puts "X"
-  end
+  turn_count(board).odd?
+  puts "O"
 end
