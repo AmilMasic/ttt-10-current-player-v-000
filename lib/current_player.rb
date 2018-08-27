@@ -14,4 +14,5 @@ def turn_count(board)
   tokens.each do |token|
     counter +=1
   end
+  counter
 end
