@@ -10,12 +10,4 @@
 # end
 def turn_count(board)
   counter = 0
-  
-  while counter <= 9
-    turns = board[counter]
-    turns.each do |turn|
-      puts "so far there where #{turn}"
-    end 
-    counter += 1
-  end
 end
