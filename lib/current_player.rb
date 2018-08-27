@@ -8,6 +8,6 @@
 #     counter += 1
 #   end
 # end
-def current_player(board)
+def turn_count
 
 end
