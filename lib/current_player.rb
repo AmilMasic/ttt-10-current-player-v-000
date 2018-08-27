@@ -11,5 +11,5 @@
 def turn_count(board)
   board = [" "," "," "," "," "," "," "," "," ",]
   tokens = ["X", "O"]
-  
+  counter  = 0
 end
