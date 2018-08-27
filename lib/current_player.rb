@@ -9,6 +9,7 @@
 #   end
 # end
 def turn_count(board)
+  board = [" "," "," "," "," "," "," "," "," ",]
   tokens = ["X", "O"]
-
+  
 end
