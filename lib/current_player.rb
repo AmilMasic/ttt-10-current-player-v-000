@@ -12,7 +12,7 @@ def turn_count(board)
   tokens = ["X", "O"]
     counter = 0
   board.each do |token|
-    if token = tokens[]
+    if token == tokens[]
       counter += 1
     end
   end
